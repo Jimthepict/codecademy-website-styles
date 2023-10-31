@@ -1,0 +1,103 @@
+.grey_btn {
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(76, 71, 71, 1);
+    width: 90vw;
+    border: 2px solid rgb(88, 14, 14);
+    border-radius: 20px;
+    box-shadow: 7px 7px 6px -3px rgba(0, 0, 0, 0.7), 
+    -4px -4px 6px -4px rgba(255, 255, 255, 0.7);
+    color: #FFE8CF;
+}
+
+
+.inset {
+    width: 120px;
+    height: 45px;
+    border-top: 2px solid rgba(0, 0, 0, 0.7);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+    border-left: 4px solid rgba(0, 0, 0, 0.7);
+    border-right: 4px solid rgba(0, 0, 0, 0.7);
+    border-radius: 50px;
+    box-shadow: inset -7px -4px 6px -3px rgba(0, 0, 0, 0.7), 
+    inset 4px 3px 6px -3px rgba(255, 255, 255, 0.7);
+    color: #FFE8CF;
+    background-color: rgba(76, 71, 71, 0.3);
+    opacity: 1;
+}
+
+
+
+
+.inset::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    background: red;
+    border: 1px solid black;
+    transform: translateX(-1.5rem) translateY(3px);
+    opacity: 1;   
+}
+
+.inset:hover::before {
+    animation: blinking-light 1.25s infinite;  
+}
+
+.inset:hover {
+    color: #fd1919;
+    transition: .5s;
+}
+
+.inset:active {
+    box-shadow: inset 7px 7px 6px -3px rgba(0, 0, 0, 0.7), 
+    inset -4px -4px 6px -4px rgba(255, 255, 255, 0.7);
+    border-top: 1px solid rgba(0, 0, 0, 1);
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    border-left: 3px solid rgba(0, 0, 0, 1);
+    border-right: 3px solid rgba(0, 0, 0, 1);
+    color: #FFE8CF;
+    opacity: 0.6;
+}
+
+#current-page::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    background: rgb(0, 255, 13);
+    border: 1px solid black;
+    transform: translateX(-1.5rem) translateY(3px);
+    opacity: 1; 
+}
+
+#current-page:hover::before {    
+    animation: blinking-green-light 1.25s infinite; 
+}
+
+@keyframes blinking-light {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: rgba(76, 71, 71, 1);
+    }
+    100% {
+        background-color: red;
+    }
+}
+
+@keyframes blinking-green-light {
+    0% {
+        background-color: rgb(0, 255, 13);
+    }
+    50% {
+        background-color: rgba(76, 71, 71, 1);
+    }
+    100% {
+        background-color: rgb(0, 255, 13);
+    }
+}
