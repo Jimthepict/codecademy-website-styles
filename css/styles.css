@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'Phudu';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(../fonts/Phudu-ExtraBold.ttf);
+     format('truetype');
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/Comfortaa-Regular.ttf);
+     format('truetype');
+}
+
+* {
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../images/foliage.png) right bottom no-repeat, url(../images/leaves.png) left top no-repeat;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    padding: 80px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    font-size: 1.5rem;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    border: 1px  solid black;
+    border-radius: 20px;
+    margin: 10px;
+    background: #ffe8cf10;
+    width: 300px;
+}
+
+p {
+    border-radius: 5px;   
+}
+
+/*Formatting for text against blae black background colour*/
+.white-txt {
+    color: #FFE8CF;  
+}
+
+/*Formatting for inline links*/
+a {
+    color: #CD6602;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #FD7F05;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:active {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*Formatting for each of the sections*/
+.columns {
+    width: 90vw;
+    margin: 20px auto;
+    border: 2px solid rgb(88, 14, 14);
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 7px 7px 6px -3px rgba(0, 0, 0, 0.7), 
+    -4px -4px 6px -4px rgba(255, 255, 255, 0.7);
+}
+
+.columns div{
+    width: 130px;
+    height: 130px;
+    display: inline-block;
+    border: 1px solid rgb(88, 14, 14);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Formatting for colours*/
+#cream {
+    background-color: #FFE8CF;
+}
+
+#dark-orange {
+    background-color: #CD6602;
+}
+
+#orange {
+    background-color: #FD7F05;
+}
+
+#dark-gray {
+    background-color: #262525;
+}
+
+#gray {
+    background-color: #383636;
+}
+
+/*Formatting for breadcrumbs*/
+.breadcrumbs li
+{
+    display: inline-block;
+    padding: 1px 10px;
+    background: rgba(76, 71, 71, 1);;
+    transform: skew(-20deg);
+    cursor: pointer;
+    opacity: 1;
+    margin-left: 20px;
+  }
+
+.breadcrumbs li:hover
+{
+    opacity: 0.8;
+    color: blueviolet;
+}
+
+
+
+
+
+.breadcrumbs li:active {
+    opacity: 1;
+    color: #FFE8CF;
+}
+
+
+
+.breadcrumbs {
+    text-align: left;
+}
+
+/*Setting format for lists describing functions*/
+.general-desc {
+    text-align: left;
+    padding: 30px 10px 20px 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 90%;
+}
+  
+.desc-li {
+    list-style-position: inside;
+}
+
+.h1-text {
+    font-family: "Phudu", sans-serif;
+    font-size: 2rem;
+    color: rgba(33, 37, 41, 0);
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #CD6602;
+    font-style: bold;
+    text-align: left;
+    padding: 10px;
+}
+
+.p-text-h3 {
+    font-family: "Phudu", sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    margin: 20px 30px;
+}
+
+.p-text {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    margin: 20px 30px;
+}
+
+h3 {
+    text-align: left;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+#txt-styles {
+    background-color: rgba(76, 71, 71, 1);
+    color: #FFE8CF;
+}
+
+.h2-text {
+    color: #CD6602;
+    font-size: 1.4rem;
+    border: none;
+    background-color: rgba(33, 37, 41, 0);
+    padding: 10px;
+    text-align: left;
+    margin: 0px;
+}
+
+.p-text-end {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    padding: 10px;
+    margin: 0px;
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+    text-indent: 3rem;
+}
+
+#t-foot {
+    background-color: rgba(76, 71, 71, 1);
+    text-align: center;
+}
+
+#t-foot p {
+    padding: 10px;
+    margin: 10px;
+}

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Design System</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../Challenge Project - Website design System/css/navigation.css">
+    <link rel="stylesheet" href="../Challenge Project - Website design System/css/social.css">
+    <link rel="stylesheet" href="../Challenge Project - Website design System/css/styles.css">
+    
+
+</head>
+<body>
+
+    <header>
+        <h1>Codecademy Project Challenge - Website Design System</h1>
+
+    </header>
+
+    <main>
+        <!--Site Colours section-->
+        <section class="columns">
+            <h2>Colour Schema:</h2>
+            <div class="creamro" id="cream">
+                <p>Ice Cream<br><br>#FFE8CF</p>
+            </div>
+            <div id="dark-orange">
+                <p>Burnt Sand<br><br>#CD6602</p>
+            </div>
+            <div id="orange">
+                <p>Orange Eye<br><br>#FD7F05</p>
+            </div>
+            <div class="white-txt" id="dark-gray">
+                <p>Blae Black<br><br>#262525</p>
+            </div>
+            <div class="white-txt" id="gray">
+                <p>Sludge<br><br>#383636</p>
+            </div>
+            <!--Colours definition list-->
+            <ul class="general-desc">
+                <li class="desc-li">Nice cream - Used for text against darker background and as the lighter background</li>
+                <li class="desc-li">Burnt Sand - Used for inline links and also text against darker background</li>
+                <li class="desc-li">Orange Eye - Used for active state inline links and other highlights</li>
+                <li class="desc-li">Blae black - Used as the darker background</li>
+                <li class="desc-li">Sludge - Used for text against lighter background</li>
+            </ul>
+
+        </section>
+
+        <!--Main Navigation section-->
+        <section class="grey_btn">
+            <h2>Main Navigation:</h2>
+            <div class="nav">
+                <button class="inset" id="current-page">
+                    <span tabindex="-1"><a href="#">Home</a></span>
+                </button>
+                <button class="inset">
+                    <span tabindex="-2"><a href="#">About</a></span>
+                </button>
+                <button class="inset">
+                    <span tabindex="-3"><a href="#">Portfolio</a></span>
+                </button>
+                <button class="inset">
+                    <span tabindex="-4"><a href="#">Contact</a></span>
+                </button>
+
+            <!--Navigation definition list-->
+            <ul class="general-desc">
+                <li class="desc-li">Buttons styled on skeumorphic design</li>
+                <li class="desc-li">Indicator to show which page the user is currently on - green light simulation</li>
+                <li class="desc-li">On hover state showing indication the link is clickable - text changes to underlined, Orange Eye colour and simulated light starts to flash</li>
+                <li class="desc-li">Active state will also show indication that the link has been clicked - button depressed state shown by means of shifting polarity of internal shadows, & text will change colour to red</li>
+            </ul>
+
+        </section>
+
+        <!--Social Icons section-->
+        <section class="social-bg">
+            <h2>Social Icons:</h2>
+                <ul class="socials">
+                    <li class="social-links"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li class="social-links"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li class="social-links"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li class="social-links"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>  
+
+            <!--Social icons definition list-->
+            <ul class="general-desc">
+                <li class="desc-li">Buttons styled on skeumorphic design</li>
+                <li class="desc-li">Indicator to show which page the user is currently on - green light simulation</li>
+                <li class="desc-li">On hover state showing indication the link is clickable - text changes to red and simulated light starts to flash</li>
+                <li class="desc-li">Active state will also show indication that the link has been clicked - button depressed state shown by means of shifting polarity of internal shadows, & text will change colour</li>
+            </ul>
+
+        </section>
+
+        <!--Breadcrumbs section-->
+        <section class="columns" id="crumb-align">
+            <h2>Breadcrumbs</h2>
+            
+            <ul class="breadcrumbs">
+                <li class="crumbs"><a href="#">Level 1</a></li>
+                <li class="crumbs"><a href="#">Level 2</a></li>
+                <li class="crumbs"><a href="#">Level 3</a></li>
+                <li class="crumbs"><a href="#">Level 4</a></li>
+            </ul>
+
+            <!--Breadcrumbs definition list-->
+            <ul class="general-desc">
+                <li class="desc-li">Buttons styled with same background as main navigation, with 20 degree skew on background element </li>
+                <li class="desc-li">Text will be coloured with Burnt Sand</li>
+                <li class="desc-li">On hover state showing indication the link is clickable - text changes to underlined with Orange Eye colour</li>
+                <li class="desc-li">Active state will also show indication that the link has been clicked - text will change colour to red</li>
+            </ul>
+            
+         </section>
+
+        <!--Style for inline links section-->
+        <section class="columns">
+            <h2>Links</h2>
+
+            <!--Links definition list-->
+            <ul class="general-desc">
+                <li class="desc-li"><a href="#">Links</a> will be styled with an initial colour of Burnt Orange</li>
+                <li class="desc-li">On mouse over, in <a href="#">hover state</a>, cursor will change to pointer and text changes to underlined with Orange Eye colour, opacity will be reduced</li>
+                <li class="desc-li">On-clicking a <a href="#">link</a>, active state, text will change colour to red - </li>
+                
+            </ul>
+       
+
+         </section>
+
+         <!--Fonts choice section-->
+         <section class="columns">
+            <h2>Fonts</h2>
+            <h3>Phudu:</h3>
+            <p class="p-text-h3">The quick brown fox jumps over the lazy dog.</p>
+            <p class="p-text-h3"><strong>The quick brown fox jumps over the lazy dog.</strong></p>
+            <p class="p-text-h3"><em>The quick brown fox jumps over the lazy dog.</em></p>
+
+            <h3>Comfortaa:</h3>
+            <p class="p-text">The quick brown fox jumps over the lazy dog.</p>
+            <p class="p-text"><strong>The quick brown fox jumps over the lazy dog.</strong></p>
+            <p class="p-text"><em>The quick brown fox jumps over the lazy dog.</em></p>
+
+
+         </section>
+
+         <!--Text styles section-->
+         <section class="columns" id="txt-styles">
+            <h2>Text Styles</h2>
+        
+            <h1 class="h1-text">H1: Main Page Heading</h1>
+            <ul class="general-desc">
+                <li class="desc-li">Font Weight: 900 Extra Bold</li>
+                <li class="desc-li">Size: 2rem, based on base font size of 16px = 32px</li>
+                <li class="desc-li">Font Family: Phudu</li>
+            </ul>
+
+            <h2 class="h2-text">H2: Subheading</h1>
+            <ul class="general-desc">
+                <li class="desc-li">Font Weight: 900 Extra Bold</li>
+                <li class="desc-li">Size: 1.4rem, based on base font size of 16px</li>
+                <li class="desc-li">Font Family: Phudu</li>
+            </ul>
+
+            <p class="p-text">P: Paragraph Text</p>
+                <ul class="general-desc">
+                    <li class="desc-li">Font Weight: 400</li>
+                    <li class="desc-li">Size: 1rem, based on base font size of 16px</li>
+                    <li class="desc-li">Font Family: Comfortaa</li>
+                </ul>
+
+            <h1 class="h1-text">Main Paragraph Font</h1>
+            <h2 class="h2-text">Comfortaa Regular</h1>
+            <p class="p-text-end">This is the main paragraph font, called Comfortaa Regular, as an example: "The quick brown fox jumps over the lazy dog" is an English-language pangram – a sentence that contains all the letters of the alphabet. The phrase is commonly used for touch-typing practice, testing typewriters and computer keyboards, displaying examples of fonts, and other applications involving text where the use of all letters in the alphabet is desired.</p>
+            <br><br>
+        
+         </section>
+        
+    </main>
+
+    <footer class="columns" id="t-foot">
+
+        <p><a href="https://www.codecademy.com/profiles/Jakdaw1" target="_blank">James Dawson - https://www.codecademy.com/profiles/Jakdaw1</a></p>
+        <p><a href="https://github.com/Jimthepict" target="_blank"> Github Profile: https://github.com/Jimthepict</a></p>
+
+    </footer>
+
+ 
+
+
+    
+</body>
+</html>
