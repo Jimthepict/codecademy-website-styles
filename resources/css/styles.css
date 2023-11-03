@@ -129,7 +129,7 @@ a:active {
     transform: skew(-20deg);
     cursor: pointer;
     opacity: 1;
-    margin-left: 20px;
+    margin: 5px 0px 5px 10px;
   }
 
 .breadcrumbs li:hover
@@ -159,7 +159,6 @@ a:active {
     padding: 30px 10px 20px 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 90%;
-    display: block;
 }
   
 .desc-li {
